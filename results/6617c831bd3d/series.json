@@ -1,0 +1,3 @@
+{"version":1,"url":"https://www.zachleat.com/","updated":"2026-11-18T21:59:36.538Z","points":[
+{"t":1795039129230,"gen":"Eleventy (Build Awesome) v4.0.0","lh":"13.6.0","performance":100,"accessibility":100,"best-practices":100,"seo":100,"lcp":1023,"cls":0.007,"tbt":0,"fcp":1023,"si":1032,"ttfb":623,"total":222028,"requests":57,"bytes":76408,"mainThreadMs":2.7,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":765.5,"longTasks":1,"elements":1100,"failingCount":0,"failingNodes":0,"axeViolations":0,"axePasses":1273,"bench":2465.5,"runs":3,"reqRuns":3,"ms":47222,"spread":0}
+]}

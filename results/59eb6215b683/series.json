@@ -1,0 +1,3 @@
+{"version":1,"url":"https://www.speedlify.dev/","updated":"2026-11-18T21:58:49.229Z","points":[
+{"t":1795039031136,"gen":"Eleventy (Build Awesome) v4.0.0","lh":"13.6.0","performance":81,"accessibility":97,"best-practices":96,"seo":100,"lcp":1868,"cls":0,"tbt":717,"fcp":1868,"si":1868,"ttfb":854,"total":306620,"requests":42,"bytes":100661,"mainThreadMs":2.4,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":3162.2,"longTasks":13,"elements":19649,"failingCount":1,"failingNodes":1,"axeViolations":1,"axePasses":47718,"bench":2457,"runs":3,"reqRuns":3,"ms":97989,"spread":11}
+]}
