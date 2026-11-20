@@ -1,0 +1,347 @@
+{
+  "url": "https://www.speedlify.dev/",
+  "name": "Speedlify",
+  "group": "example",
+  "groupName": "Example",
+  "timestamp": 1795144585836,
+  "date": "2026-11-20T03:16:25.836Z",
+  "runId": "2026-11-20T03-16-17-234Z",
+  "formFactor": "mobile",
+  "requestedRuns": 3,
+  "completedRuns": 3,
+  "durationMs": 90618,
+  "error": null,
+  "variance": {
+    "min": 73,
+    "max": 86,
+    "spread": 13,
+    "runs": 3
+  },
+  "lab": {
+    "requestedUrl": "https://www.speedlify.dev/",
+    "finalUrl": "https://www.speedlify.dev/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 85,
+      "accessibility": 97,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 67
+    },
+    "timings": {
+      "fcp": 1605,
+      "lcp": 1605,
+      "si": 1605,
+      "tbt": 566,
+      "tti": 2974,
+      "cls": 0,
+      "ttfb": 610,
+      "maxPotentialFid": 285,
+      "serverResponseTime": 3,
+      "networkRtt": 0,
+      "networkServerLatency": 124.8
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.7,
+      "elementRenderDelay": 97.8
+    },
+    "weight": {
+      "total": 287763,
+      "requests": 42,
+      "mainDocument": 143323,
+      "byType": {
+        "total": {
+          "bytes": 287763,
+          "requests": 41
+        },
+        "document": {
+          "bytes": 143323,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 134940,
+          "requests": 35
+        },
+        "script": {
+          "bytes": 8928,
+          "requests": 3
+        },
+        "other": {
+          "bytes": 572,
+          "requests": 2
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 85835,
+          "requests": 37
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 85645,
+      "mainThreadMs": 2.2,
+      "top": [
+        {
+          "entity": "11ty.dev",
+          "bytes": 80874,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 80874
+          },
+          "typedBytes": 80874
+        },
+        {
+          "entity": "zgo.at",
+          "bytes": 4389,
+          "mainThreadMs": 2.2,
+          "byType": {
+            "script": 4389
+          },
+          "typedBytes": 4389
+        },
+        {
+          "entity": "goatcounter.com",
+          "bytes": 382,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 382
+          },
+          "typedBytes": 382
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 2904,
+      "byGroup": {
+        "styleLayout": 884.8,
+        "paintCompositeRender": 864,
+        "other": 728.1,
+        "parseHTML": 329.5,
+        "scriptEvaluation": 80.8,
+        "garbageCollection": 12.6,
+        "scriptParseCompile": 4.1
+      },
+      "bootupMs": 74.5,
+      "longTasks": 12,
+      "longestTaskMs": 285
+    },
+    "dom": {
+      "elements": 19498,
+      "depth": 12,
+      "maxChildren": 229
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 118579.85000000003,
+      "poorlyCachedCount": 37
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 31,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 19,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 8,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2445,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-20T03:16:45.066Z",
+      "runtimeMs": 14295.1
+    }
+  },
+  "throttledLcpBreakdown": {
+    "timeToFirstByte": 694.2,
+    "elementRenderDelay": 0
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [
+        "fontawesome"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "2ea8e568b6ca0ac312f22a31af8c8cc1451cdfd7",
+      "x-github-request-id": "8C84:1E62F7:BDC8:E784:6AFFBB8D",
+      "x-served-by": "cache-chi-kmdw8640077-CHI"
+    },
+    "violations": 1,
+    "passes": 47342,
+    "incomplete": 2778,
+    "violationRules": 1,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "time[datetime=\"2026-11-15T11:20:09.942Z\"]",
+            "snippet": "<time datetime=\"2026-11-15T11:20:09.942Z\">4d</time>"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "f09633de1656",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"6aff768d-1d04cc\"",
+          "last-modified": "Thu, 19 Nov 2026 22:22:05 GMT",
+          "x-cache": "MISS",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f09633de1656",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "15",
+          "etag": "W/\"6aff768d-1d04cc\"",
+          "last-modified": "Thu, 19 Nov 2026 22:22:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f09633de1656",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "29",
+          "etag": "W/\"6aff768d-1d04cc\"",
+          "last-modified": "Thu, 19 Nov 2026 22:22:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f09633de1656",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "5",
+          "etag": "W/\"6aff768d-1d04cc\"",
+          "last-modified": "Thu, 19 Nov 2026 22:22:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        }
+      },
+      {
+        "hash": "f09633de1656",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "26",
+          "etag": "W/\"6aff768d-1d04cc\"",
+          "last-modified": "Thu, 19 Nov 2026 22:22:05 GMT",
+          "x-cache": "HIT",
+          "x-proxy-cache": "MISS"
+        },
+        "fromCache": true
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
